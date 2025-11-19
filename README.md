@@ -15,8 +15,8 @@ A React app showcasing a restaurant menu with reusable components and list rende
 - `menu data` - `src/data/menuData.js`
 
 ## Links
-- **GitHub Repository:** _Add your GitHub repo link here after pushing._
-- **Live Website:** _Add your Vercel/Netlify link after deploying._
+- **GitHub Repository:** https://github.com/akmal0767/restaurant-akmal.git
+- **Live Website:** https://deft-croissant-b3546b.netlify.app/
 
 ## Run Locally
 1. Clone the repository.
@@ -29,3 +29,4 @@ Before zipping the project for submission, remove the `node_modules` folder.
 
 ## File naming required by the assignment
 Name your submission file as: `restaurantmenu_<yourname>.zip` (example: `restaurantmenu_davidlee.zip`)
+
