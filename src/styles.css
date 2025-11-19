@@ -1,0 +1,32 @@
+:root{
+  --bg:#f7f7f8;
+  --card:#ffffff;
+  --accent:#2b8a3e;
+  --muted:#666;
+}
+
+*{box-sizing:border-box;font-family:Inter, ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;}
+
+body{margin:0;background:var(--bg);color:#111;}
+
+.container{max-width:1100px;margin:24px auto;padding:16px;}
+
+.header{text-align:center;padding:24px 0;}
+.title{margin:0;font-size:2.2rem;letter-spacing:0.5px;}
+.tagline{margin:4px 0;color:var(--muted);}
+
+.menu-section{background:transparent;padding:18px 0;border-top:1px solid #e6e6e6;}
+.menu-section h2{margin:0 0 12px 0;color:#222;}
+
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;}
+
+.card{background:var(--card);padding:14px;border-radius:10px;box-shadow:0 6px 18px rgba(10,10,10,0.04);}
+.card-header{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;}
+.dish-name{margin:0;font-size:1.05rem;}
+.veg-badge{background:var(--accent);color:white;padding:4px 8px;border-radius:999px;font-size:0.75rem;}
+
+.category{margin:4px 0;color:var(--muted);font-size:0.9rem;}
+.description{margin:8px 0 0 0;color:#333;font-size:0.95rem;}
+
+.info-card{margin:22px 0;padding:14px;background:#fff;border-radius:8px;box-shadow:0 4px 12px rgba(10,10,10,0.03);}
+.footer{text-align:center;margin-top:18px;color:var(--muted);font-size:0.9rem;}
